@@ -72,7 +72,7 @@ void add()
     scanf("%d",&n);
     for(i=d; i<n+d; i++)
     {
-        printf("Enter information of additional book no. %d\n",i-d+1); //here
+        printf("Enter information of additional book no. %d\n",i-d+1);   //here
         printf("Accession number ");
         scanf("%d",&b[i].a);
         printf("Name of author ");
@@ -117,7 +117,7 @@ void title()
         if(c==0)
         {
             printf("Accession number  Name      title     price   issue status\n");
-            printf("%d        %s        %s       %f    %s\n",b[i].a,b[i].name,b[i].title,b[i].price,b[i].flag);
+            printf("%d        %s        %s       %f    %s\n",b[i].a,b[i].name,b[i].title,b[i].price,b[i].flag); //here
         }
     }
 }
@@ -146,7 +146,7 @@ void access()   //here
             }
     printf("Accession number  Name      title     price   issue status\n");
     for(j=0; j<d; j++)
-        printf("%d        %s        %s       %f    %s\n",b[c[j]].a,b[c[j]].name,b[c[j]].title,b[c[j]].price,b[c[j]].flag);
+        printf("%d        %s        %s       %f    %s\n",b[c[j]].a,b[c[j]].name,b[c[j]].title,b[c[j]].price,b[c[j]].flag); //here
 }
 
 
