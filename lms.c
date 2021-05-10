@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<string.h>
-void pp();
 void add();
 void display();
 void author();
@@ -138,7 +137,4 @@ void access()
     for(j=0; j<d; j++)
         printf("%d        %s        %s       %f    %s\n",b[c[j]].a,b[c[j]].name,b[c[j]].title,b[c[j]].price,b[c[j]].flag);
 }
-void pp()
-{
-    printf("hello world");
-}
+
